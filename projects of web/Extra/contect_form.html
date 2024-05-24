@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect Form</title>
+    <link rel="stylesheet" href="contect_form.css">
+</head>
+<body>
+    <div class="contect_information">
+    <div class="heading">
+        <h1>Contect Information For Delivery</h1>
+        </div>
+    <div class="certainer">
+        <form action="">
+           
+            <hr>
+            <p>*Name: <input type="text" name="name " required placeholder="Enter your name"></p>
+            <fieldset> 
+                <legend>*Gender </legend>
+                <p>Male <input type="radio" name="gender" id="male"> 
+                Female <input type="radio" name="gender" id="female"></p>
+            </fieldset>
+            <p>*Mobail Number: <input type="number" name="mobail number" required placeholder="Enter your mobail number"></p>
+            <p>*Address: <textarea name="address" id="address" cols="100" rows="8" placeholder="Please enter your address" required></textarea></p>
+            <p>*Email: <input type="email" id="email" name="email" required placeholder="Enter your email"></p>
+            <p>*Delivered at:
+                <select name="Delivery_at" id="Delivery_at" required>
+                    <option value="">--select-delivery-place--</option>
+                    <option value="home">Home</option>
+                    <option value="office">office</option>
+                </select>
+            </p>
+            <input type="submit" name="submit" required>
+        </form>
+    </div>
+</div>
+</body>
+</html>

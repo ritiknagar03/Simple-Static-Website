@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    display:flex;
+    background-color: #333;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 75vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 50vh;
+    width: 100vh;
+    padding: 10px;
+
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+}
+
+.banner{
+    background-image: url(../InstaPage/Image/logo.png);
+    height: 17vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 34%;
+    background-attachment: fixed;
+}
+
+.menu_button:hover{
+    background-color: white;
+    color: black;
+}
+
+section h2 span{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,45,1) 35%, rgba(155,58,107,1) 69%, rgba(113,58,155,1) 85%) ;
+    padding: 10px 55px;
+    color: white;
+    border-radius: 7px;
+}
+
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.carousel-cell video{
+    max-width: 80%;
+}
+
+.profile_img{
+    border-radius: 500px;
+}
+
+.profile_name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+
+.sm_page a{
+    background-color: rgb(125 125 125 /25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.sm_page a:hover{
+    background-color: rgb(30 30 30 /25%);
+}
+
+.sm_page i{
+    margin: 5px;
+}
+
+.yt_page{
+    color: 	#FF0000;
+}
+
+.insta_page{
+    color: #dd2a7b;
+}
+
+.about_us{
+    margin: 50px;
+}
+
+.about_title{
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: #120f5e;
+}
+
+.about_content{
+    color: #1c1a3a;
+    font-weight: 900;
+    padding-bottom: 10px 0px 20px 0px;
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}

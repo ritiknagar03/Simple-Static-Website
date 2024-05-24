@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 15px;
+    padding: 8px;
+    background-image: url(image/meeting.png);
+
+
+}
+
+.certainer{
+    background-color: #f2f2f293;
+    padding: 5px 20px 15px 20px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.heading{
+    background-color: rgb(114, 164, 239);
+    text-align: center;
+    padding: 5px 40px 15px 40px;
+    border: 1px solid rgb(114, 164, 239);
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+input[text="name"],
+input[text="number"],
+input[text="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: rgb(114, 164, 239);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: blue;
+}
+
